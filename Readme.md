@@ -25,10 +25,12 @@ So to start:
 1. edit your entitlements file - I use Jailcoder so:
    `sudo vi /Library/JailCoder/Entitlements/Entitlements.py`
 2. Add the following as an entitlement 
+        
         <key>com.apple.security.application-groups</key>
         <array>
             <string>com.4o4</string>
         </array>
+        
 3. If you have previousally built the app, you will need to clean the project and rebuild to use the new entitlements.
 4. Then it is mostly the same as the theos tool:
 
